@@ -8,4 +8,9 @@ public class Test{
 
     }
 
+    public boolan isEmpty(){
+
+        return top == -1;
+    }
+
 }
