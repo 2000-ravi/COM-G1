@@ -8,9 +8,25 @@ public class Test{
 
     }
 
-    public boolan isEmpty(){
+    public boolean isEmpty(){
 
         return top == -1;
+    }
+
+    public boolean isFull(){
+
+        return top = stk.length -1;
+
+    }
+
+    public void push(int item){
+
+        if isFull(){
+            System.out.println(x:"Stack is overflow");
+        }
+        else{
+            stk[++top] = item;
+        }
     }
 
 }
