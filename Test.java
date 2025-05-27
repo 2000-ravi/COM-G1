@@ -41,4 +41,16 @@ public class Test{
         }
     }
 
+    public void display(){
+
+        if (isEmpty()){
+            System.out.println(x:"Stack is underflow");
+        }
+        else{
+            for(int i=top; i>=0 i--){
+                System.out.println(stk[]);
+            }
+
+        }
+    }
 }
