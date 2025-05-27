@@ -13,6 +13,7 @@ public class Test{
         return top == -1;
     }
 
+<<<<<<< HEAD
     public boolean isFull(){
 
         return top = stk.length -1;
@@ -26,6 +27,17 @@ public class Test{
         }
         else{
             stk[++top] = item;
+=======
+    public int pop(){
+
+        if(isEmpty()){
+            System.out.println(x:"Stack is underflow");
+            return 0;
+            }
+        else{
+            int item = stk[++top];
+            return item;
+>>>>>>> f2
         }
     }
 
